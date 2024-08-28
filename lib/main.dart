@@ -3,7 +3,9 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:meals_preview/screens/tabs_screen.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-final theme = ThemeData(
+
+
+var theme = ThemeData(
   useMaterial3: true,
   colorScheme: ColorScheme.fromSeed(
     brightness: Brightness.dark,
